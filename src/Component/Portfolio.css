@@ -1,3 +1,76 @@
 .port{
     color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.port-top{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.port-top-date{
+    display: flex;
+    gap: 20px;
+}
+.port-top-bio{
+    font-size: 16px;
+}
+.date p{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 8px 24px;
+}
+.time p{
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 8px 24px;
+}
+.port-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    width: 1826px;
+    height: 250px;
+    
+}
+.port-portfolio{
+    padding: 8px 16px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.port-portfolio:hover{
+    cursor: pointer;
+    padding: 16px;
+    width: 600px;
+    height: 260px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.port-portfolio p{
+    text-align: center;
+    border: 2px solid grey;
+    padding: 8px 24px;
+    width: 70px;
+    border-radius: 20px;
+}
+.port-portfolio h5{
+    margin-top: 80px;
+}
+.port-photos{
+    color: black;
+    padding: 8px 16px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background-color: lightseagreen;
+}
+.port-blog{
+    color: black;
+    background-color: darkorange;
+    padding: 8px 16px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid grey;
 }

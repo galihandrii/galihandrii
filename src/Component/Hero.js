@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
             <div className='hero-right'>
                 <div className='hero-right-img'><img src={profile}/></div>
-                <div className='hero-right-say'><p>aksajsahsjaskajsa</p></div>
+                <div className='hero-right-say'><p>Say something to Galih</p></div>
             </div>
         </div>
     )
