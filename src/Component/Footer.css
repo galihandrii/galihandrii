@@ -1,0 +1,9 @@
+footer{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    border-top: 2px solid grey;
+    width: 1820px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

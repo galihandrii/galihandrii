@@ -1,6 +1,7 @@
 .port{
     color: white;
     font-family: 'Quicksand', sans-serif;
+    padding-bottom: 55px;
 }
 .port-top{
     padding-top: 8px;
@@ -38,39 +39,92 @@
     padding: 8px 16px;
     width: 600px;
     border-radius: 20px;
-    border: 2px solid grey;
+    border: 2px solid white;
 }
 .port-portfolio:hover{
     cursor: pointer;
     padding: 16px;
     width: 600px;
-    height: 260px;
+    height: 250px;
     border-radius: 20px;
     border: 2px solid grey;
+    box-shadow: 2px 2px 8px 2px grey;
 }
-.port-portfolio p{
+.port-portfolio h3{
     text-align: center;
     border: 2px solid grey;
     padding: 8px 24px;
     width: 70px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
-.port-portfolio h5{
-    margin-top: 80px;
+.port-portfolio p{
+    margin-top: 30px;
+}
+.port-portfolio-img{
+    height: 70px;
+}
+.port-portfolio-img img{
+    width: 100%;
+    height: 100%;
 }
 .port-photos{
-    color: black;
+    color: white;
     padding: 8px 16px;
     width: 600px;
     border-radius: 20px;
+    border: 2px solid white;
+    background-color: #645CBB;
+}
+.port-photos:hover{
+    cursor: pointer;
+    padding: 16px;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
     border: 2px solid grey;
-    background-color: lightseagreen;
+    box-shadow: 1px 1px 8px 1px white;
+}
+.port-photos h3{
+    text-align: center;
+    border: 2px solid white;
+    padding: 8px 24px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+.port-photos-info{
+    padding: 0px 16px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 .port-blog{
     color: black;
-    background-color: darkorange;
+    background-color: #FAC213;
     padding: 8px 16px;
     width: 600px;
     border-radius: 20px;
+    border: 2px solid black;
+}
+.port-blog:hover{
+    cursor: pointer;
+    padding: 16px;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
     border: 2px solid grey;
+    box-shadow: 2px 2px 8px 2px white;
+}
+.port-blog h3{
+    text-align: center;
+    border: 2px solid black;
+    padding: 8px 24px;
+    width: 70px;
+    border-radius: 30px;
+}
+.port-blog-info{
+    padding: 0px 16px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
 }

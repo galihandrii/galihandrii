@@ -1,6 +1,9 @@
 import { useState,useEffect } from 'react';
 import './Portfolio.css'
 import moment from "moment/moment";
+import web from "../Assets/web-design.png"
+import {IoMdPhotos} from "react-icons/io";
+import {FaBloggerB} from "react-icons/fa";
 
 
 const Portfolio = () => {
@@ -55,18 +58,34 @@ const Portfolio = () => {
                     <p>Hii its Galih Andrihasworo.
                 Welcome to my personal website. 
                 I do web develop and design. <br/>
-                Let's take a look and enjoy
+                Let's take a look and enjoy / ©2023
                     </p>
                 </div>
             </div>
             <div className='port-bottom'>
                 <div className='port-portfolio'>
-                    <div><p>Portfolio</p></div>
-                    <div><img/></div>
-                    <div><h5>These are Galih's portfolio in building a website using a front end tech stack and library like react and bootstrap. Hope you like it :)</h5></div>
+                    <div><h3>Portfolio</h3></div>
+                    <div className='port-portfolio-img'><img src={web}/></div>
+                    <div>
+                      <p>These are Galih's portfolio in building a website
+                       using a front end tech stack and library like react and bootstrap.
+                      </p>
+                    </div>
                 </div>
-                <div className='port-photos'></div>
-                <div className='port-blog'></div>
+                <div className='port-photos'>
+                  <div><h3>Photos</h3></div>
+                  <div className='port-photos-info'>
+                    <div><p>A few favorites moment captured</p></div>
+                    <div><IoMdPhotos size={80}/></div>
+                  </div>
+                </div>
+                <div className='port-blog'>
+                  <div><h3>Blog</h3></div>
+                  <div className='port-blog-info'>
+                    <div><h4>asasasasasas asasasa asasasas</h4></div>
+                    <div><FaBloggerB size={80}/></div>
+                  </div>
+                </div>
             </div>
 
         </div>
