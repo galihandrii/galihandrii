@@ -4,6 +4,7 @@ import moment from "moment/moment";
 import web from "../Assets/web-design.png"
 import {IoMdPhotos} from "react-icons/io";
 import {FaBloggerB} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Portfolio = () => {
@@ -63,26 +64,29 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className='port-bottom'>
-                <div className='port-portfolio'>
+              <Link className='link' to='/portfolio'>
+              <div className='port-portfolio'>
                     <div><h3>Portfolio</h3></div>
                     <div className='port-portfolio-img'><img src={web}/></div>
                     <div>
-                      <p>These are Galih's portfolio in building a website
+                      <h4>These are Galih's portfolio in building a website
                        using a front end tech stack and library like react and bootstrap.
-                      </p>
+                      </h4>
                     </div>
                 </div>
+              </Link>
+                
                 <div className='port-photos'>
                   <div><h3>Photos</h3></div>
                   <div className='port-photos-info'>
-                    <div><p>A few favorites moment captured</p></div>
+                    <div><h4>People left but memories last forever.<br/>A few favorite moments captured.</h4></div>
                     <div><IoMdPhotos size={80}/></div>
                   </div>
                 </div>
                 <div className='port-blog'>
                   <div><h3>Blog</h3></div>
                   <div className='port-blog-info'>
-                    <div><h4>asasasasasas asasasa asasasas</h4></div>
+                    <div><h4>Share some perspective, thoughts,<br/> experiences and any kind of information</h4></div>
                     <div><FaBloggerB size={80}/></div>
                   </div>
                 </div>

@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div><p>01</p></div>
             <div><p>ALL RIGHT RESERVED ©2023</p></div>
-            <div><p> code by Galih himself</p></div>
+            <div><p> copyright ©2023 Galih Andrihasworo</p></div>
         </footer>
     )
 }
