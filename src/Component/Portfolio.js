@@ -70,7 +70,7 @@ const Portfolio = () => {
                     <div className='port-portfolio-img'><img src={web}/></div>
                     <div>
                       <h4>These are Galih's portfolio in building a website
-                       using a front end tech stack and library like react and bootstrap.
+                       using a front end tech stack and library like react, bootstrap, etc.
                       </h4>
                     </div>
                 </div>
