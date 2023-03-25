@@ -1,0 +1,25 @@
+.port-1{
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.port-1-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.port-img{
+    width: 600px;
+}
+.port-img img{
+    width: 100%;
+    height: 100%;
+}
+.port-1-right{
+    width: 600px;
+}
+.port-1-admin{
+    margin-top: 300px;
+}
